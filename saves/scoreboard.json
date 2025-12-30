@@ -1,0 +1,59 @@
+{
+  "players": {
+    "Computer": {
+      "matches_played": 8,
+      "matches_won": 2,
+      "rounds_won": 9
+    },
+    "Player1": {
+      "matches_played": 2,
+      "matches_won": 2,
+      "rounds_won": 4
+    },
+    "tarik": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 2
+    },
+    "Haris": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 1
+    },
+    "Samir": {
+      "matches_played": 1,
+      "matches_won": 0,
+      "rounds_won": 0
+    },
+    "harkiz": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 4
+    },
+    "haris": {
+      "matches_played": 4,
+      "matches_won": 1,
+      "rounds_won": 5
+    },
+    "Harke": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 1
+    },
+    "kukalo": {
+      "matches_played": 1,
+      "matches_won": 0,
+      "rounds_won": 0
+    },
+    "bubalo": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 1
+    },
+    "Tarci": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 2
+    }
+  }
+}
