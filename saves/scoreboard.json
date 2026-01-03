@@ -1,19 +1,19 @@
 {
   "players": {
-    "Tarci": {
+    "Computer": {
+      "matches_played": 13,
+      "matches_won": 6,
+      "rounds_won": 14
+    },
+    "bubalo": {
       "matches_played": 1,
       "matches_won": 1,
-      "rounds_won": 2
+      "rounds_won": 1
     },
     "Harke": {
       "matches_played": 5,
       "matches_won": 2,
       "rounds_won": 2
-    },
-    "kukalo": {
-      "matches_played": 1,
-      "matches_won": 0,
-      "rounds_won": 0
     },
     "harkiz": {
       "matches_played": 1,
@@ -25,40 +25,40 @@
       "matches_won": 2,
       "rounds_won": 4
     },
-    "Asmir": {
-      "matches_played": 1,
-      "matches_won": 0,
-      "rounds_won": 0
-    },
-    "bubalo": {
+    "tarik": {
       "matches_played": 1,
       "matches_won": 1,
-      "rounds_won": 1
+      "rounds_won": 2
+    },
+    "Tarci": {
+      "matches_played": 1,
+      "matches_won": 1,
+      "rounds_won": 2
     },
     "Haris": {
       "matches_played": 1,
       "matches_won": 1,
       "rounds_won": 1
     },
-    "tarik": {
+    "kukalo": {
       "matches_played": 1,
-      "matches_won": 1,
-      "rounds_won": 2
+      "matches_won": 0,
+      "rounds_won": 0
     },
     "haris": {
       "matches_played": 4,
       "matches_won": 1,
       "rounds_won": 5
     },
-    "Samir": {
+    "Asmir": {
       "matches_played": 1,
       "matches_won": 0,
       "rounds_won": 0
     },
-    "Computer": {
-      "matches_played": 13,
-      "matches_won": 6,
-      "rounds_won": 14
+    "Samir": {
+      "matches_played": 1,
+      "matches_won": 0,
+      "rounds_won": 0
     }
   }
 }
