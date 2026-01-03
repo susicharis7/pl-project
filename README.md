@@ -251,7 +251,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@susicharis7](https://github.com/susicharis7)
 
 **Tarik Skender**
-- GutHub: [@tarikskender04](https://github.com/tarikskender04)
+- GitHub: [@tarikskender04](https://github.com/tarikskender04)
 
 ---
 
