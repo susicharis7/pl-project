@@ -7,7 +7,7 @@ use crate::display::colors::{accent, header, info, subtle, success, failure, Col
 
 use crate::game::game_state::GameState;
 use crate::game::round::RoundResult;
-use crate::game::rules::Ruleset;  // DODANO
+use crate::game::rules::Ruleset;    
 use crate::scoreboard::scoreboard::Scoreboard;
 use crate::scoreboard::stats::PlayerStats;
 use crate::utils::input::{read_input, read_number};
@@ -154,8 +154,9 @@ fn most_frequent(history: &[crate::game::rules::Gesture]) -> Option<crate::game:
         *counts.entry(g.clone()).or_insert(0) += 1;
     }
 
+    // Finds largest value and returns its key 
     counts.into_iter().max_by_key(|(_, c)| *c).map(|(g, _)| g)
-}
+}   
 
 /* MAIN MENU */
 pub fn show_main_menu() {

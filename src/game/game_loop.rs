@@ -5,12 +5,12 @@ use crate::display::ui::{
 };
 use crate::game::game_state::GameState;
 use crate::game::round::{resolve_round, RoundResult};
-use crate::io::save_load::save_game_state_and_scoreboard;
 use crate::players::ai::generate_ai_move;
 use crate::players::player::PlayerType;
 use crate::scoreboard::scoreboard::Scoreboard;
 use crate::scoreboard::stats::MatchOutcome;
 use crate::utils::clear_screen::clear_screen;
+use crate::io::save_load::{save_game_state_and_scoreboard, delete_save_state};
 
 use crate::game::rules::Gesture;
 
@@ -73,6 +73,7 @@ pub fn run_match(
             );
 
             let _ = scoreboard.save();
+            delete_save_state();
 
             /* End Of Match MENU */
             match show_match_actions_menu() {

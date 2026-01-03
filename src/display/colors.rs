@@ -7,10 +7,10 @@ pub enum ColorSupport {
 }
 
 fn apply<F>(text: &str, support: ColorSupport, f: F) -> ColoredString
-where
+where 
     F: FnOnce(&str) -> ColoredString,
 {
-    match support {
+    match support { 
         ColorSupport::Enabled => f(text),
         ColorSupport::Disabled => text.normal(),
     }

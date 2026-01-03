@@ -42,3 +42,8 @@ pub fn load_scoreboard_only() -> Scoreboard {
         Err(_) => Scoreboard::new(),
     }
 }
+
+
+pub fn delete_save_state() {
+    let _ = std::fs::remove_file("saves/save_state.json");
+}
